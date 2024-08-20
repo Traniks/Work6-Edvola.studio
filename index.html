@@ -96,7 +96,7 @@
 	</script>
 
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	<!-- end Font Awesome -->
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/style.css?39">
@@ -1325,6 +1325,14 @@
 		 var currentYear = new Date().getFullYear();
 		 document.getElementById('currentYear').textContent = currentYear;
 		});
+	</script>
+
+	<script>
+		var css = document.createElement('link');
+		css.rel = 'stylesheet';
+		css.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+		css.async = true;
+		document.head.appendChild(css);
 	</script>
 
 	<!-- WhatsHelp -->
