@@ -1,0 +1,30 @@
+// Footer
+footer{
+    padding: 45px 0;
+    @media screen and (max-width: 600px) {
+        background-color: #f8fbfc;
+    }
+    @media @xs{
+        padding: 25px 0;
+    }
+    .container{
+        justify-content: space-between;
+        align-items: center;
+        @media @md{
+            flex-direction: column;
+        }
+        span{
+            display: block;
+            @media @md{
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            a{
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+// end Footer

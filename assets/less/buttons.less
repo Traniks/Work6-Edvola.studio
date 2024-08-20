@@ -1,0 +1,34 @@
+// Buttons
+.order__btn{
+    background-image: linear-gradient(-40deg, #ffd500 0%, #ffe600 100%);
+    text-align: center;
+    min-height: 99px;
+    font-size: 29px;
+    letter-spacing: -0.84px;
+    color: #3b4548;
+    border-radius: 90px;
+    border: none;
+    box-shadow: 0 6px 38px rgba(255, 226, 0, 0.57);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    &:hover{
+        transition: all ease 0.3s;
+        opacity: 0.9;
+        box-shadow: 0 6px 38px rgba(255, 226, 0, 0.27);
+    }
+    @media @tb{
+        font-size: 20px;
+        min-height: 70px;
+    }
+    &.link__button{
+        line-height: 99px;
+        max-width: 489px;
+        width: 100%;
+        @media @tb{
+            min-height: 70px;
+            line-height: 70px;
+        }
+    }
+}
+// end Buttons

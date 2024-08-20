@@ -1,0 +1,40 @@
+// Header
+header{
+    padding: 35px 0;
+    @media @tb{
+        padding: 0 0;
+    }
+    .container{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        @media @tb{
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0;
+        }
+        .page__logo{
+            @media @tb{
+                padding: 15px;
+                box-sizing: border-box;
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+        .page__phone{
+            @media @tb{
+                max-width: 100%;
+                width: 100%;
+                background: @Orange;
+                text-align: center;
+                font-weight: 700;
+                padding: 15px 0;
+                i{
+                    color: inherit;
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
+// end Header

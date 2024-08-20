@@ -1,0 +1,171 @@
+// Steps Section
+.steps__section{
+    padding: 120px 0 160px 0;
+    overflow: hidden;
+    @media @lg{
+        padding: 120px 0;
+    }
+    @media @tb{
+        padding: 90px 0 50px 0;
+        overflow: hidden;
+    }
+    .steps__items{
+        .item{
+            align-items: center;
+            margin-bottom: 150px;
+            box-sizing: border-box;
+            flex-wrap: nowrap;
+            @media @lg{
+                margin-bottom: 50px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            @media @tb{
+                flex-direction: column;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+            &:nth-child(1){
+                .item__ico{
+                    &:after{
+                        width: 391px;
+                        height: 306px;
+                        background: url("../images/about-step-after-1.png");
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        top: 75%;
+                        left: 0;
+                    }
+                    img{
+                        top: -35px;
+                        left: 30px;
+                    }
+                }
+            }
+            &:nth-child(2){
+                padding-left: 145px;
+                @media @lg{
+                    padding-left: 0;
+                }
+                .item__ico{
+                    &:after{
+                        width: 391px;
+                        height: 306px;
+                        background: url("../images/about-step-after-2.png");
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        top: 55%;
+                        right: 0;
+                    }
+                    img{
+                        top: 20px;
+                        left: -140px;
+                    }
+                }
+            }
+            &:nth-child(3){
+                .item__ico{
+                    &:after{
+                        width: 391px;
+                        height: 306px;
+                        background: url("../images/about-step-after-3.png");
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        top: 55%;
+                        left: 0;
+                    }
+                    img{
+                        top: 20px;
+                        left: -140px;
+                    }
+                }
+            }
+        }
+        .item__ico{
+            width: 258px;
+            min-width: 258px;
+            height: 257px;
+            background-color: #ffe600;
+            position: relative;
+            margin-right: 100px;
+            border-radius: 50%;
+            @media @md{
+                margin-right: 50px;
+            }
+            @media @tb{
+                margin-right: 0;
+                margin-bottom: 50px;
+            }
+            &:after{
+                content: "";
+                position: absolute;
+                z-index: -1;
+                @media @lg{
+                    display: none;
+                }
+            }
+            img{
+                position: absolute;
+                left: 0;
+                top: 0;
+                max-width: inherit;
+                @media @lg{
+                    max-width: 95%;
+                    left: 50%!important;
+                    top: 50%!important;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            span{
+                width: 78px;
+                height: 78px;
+                border: 1px solid #ffe600;
+                background-color: #ffffff;
+                display: block;
+                position: absolute;
+                right: 0px;
+                top: -10px;
+                line-height: 78px;
+                text-align: center;
+                font-size: 46px;
+                border-radius: 50%;
+                z-index: 2;
+            }
+        }
+        .item__content{
+            max-width: 630px;
+            @media @tb{
+                max-width: 100%;
+                width: 100%;
+                text-align: center;
+            }
+            b{
+                display: block;
+                font-size: 36px;
+                margin-bottom: 20px;
+                @media @xs{
+                    font-size: 26px;
+                    margin-bottom: 15px;
+                }
+            }
+            ul{
+                li{
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                    @media @xs{
+                        font-size: 18px;
+                    }
+                    @media @xxs{
+                        font-size: 16px;
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+// end Steps Section

@@ -1,0 +1,73 @@
+// Services Section
+.services__section{
+    padding: 170px 0 250px 0;
+    background: #fff5df;
+    @media screen and (max-width: 800px){
+        padding: 100px 0 170px 0;
+    }
+    @media @xs{
+        padding: 90px 0 175px 0;
+    }
+    .services__items{
+        justify-content: space-between;
+        @media screen and (max-width: 800px) {
+            flex-direction: column;
+        }
+        .item__content{
+            max-width: 470px;
+            width: 100%;
+            @media @lg{
+                max-width: 40%;
+            }
+            @media screen and (max-width: 800px){
+                max-width: 100%;
+                margin-bottom: 35px;
+            }
+            h2{
+                line-height: 1.3;
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+        .item__content__list{
+            max-width: 600px;
+            width: 100%;
+            @media @lg{
+                max-width: 55%;
+            }
+            @media screen and (max-width: 800px){
+                max-width: 100%;
+            }
+            .item{
+                flex-wrap: nowrap;
+                align-items: center;
+                margin-bottom: 35px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                .item__ico{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 99px;
+                    min-width: 99px;
+                    height: 99px;
+                    border: 1px solid #ffe600;
+                    margin-right: 35px;
+                    border-radius: 50%;
+                    @media @xs{
+                        margin-right: 15px;
+                    }
+                }
+                .item__content_{
+                    font-size: 24px;
+                    @media @xs{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+// end Services Section

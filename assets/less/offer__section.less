@@ -1,0 +1,147 @@
+// Offer Section
+.offer__section{
+    background: #f8fbfc;
+    padding: 55px 0;
+    height: 200px;
+    @media @lg{
+        height: inherit;
+        text-align: center;
+    }
+    .container{
+        position: relative;
+        .item__video{
+            width: 544px;
+            height: 477px;
+            background: url("../images/iMac.png");
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translate(0, -50%);
+            @media @lg{
+                position: relative;
+                transform: none;
+                margin: 45px auto 0 auto;
+            }
+            @media @tb{
+                width: 380px;
+                background-size: cover;
+                height: 333px;
+                right: 0;
+            }
+            @media @xs{
+                margin: 145px auto 0 auto;
+                width: 300px;
+                height: 261px;
+            }
+            @media @xxs{
+                width: 288px;
+                height: 253px;
+            }
+            .item__bg{
+                position: absolute;
+                width: 504px;
+                height: 287px;
+                left: 18px;
+                top: 20px;
+                @media @tb{
+                    width: 340px;
+                    height: 200px;
+                }
+                @media @xs{
+                    width: 278px;
+                    left: 10px;
+                    top: 10px;
+                    height: 165px;
+                }
+                @media @xxs{
+                    width: 265px;
+                    height: 160px;
+                }
+            }
+        }
+    }
+    .offer__items{
+        max-width: 500px;
+        @media @lg{
+            max-width: 100%;
+            width: 100%;
+        }
+        .item__text{
+            @media @lg{
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+        .round{
+            position: absolute;
+            left: 250px;
+            top: -100px;
+            width: 78px;
+            height: 78px;
+            border: 1px solid #ffe600;
+            background-color: #ffffff;
+            display: block;
+            line-height: 78px;
+            text-align: center;
+            font-size: 46px;
+            border-radius: 50%;
+            z-index: 2;
+            @media @lg{
+                display: none;
+            }
+        }
+        a.order__btn{
+            position: relative;
+            z-index: 2;
+            top: 0px;
+            &:after{
+                content: "";
+                width: 113px;
+                height: 117px;
+                position: absolute;
+                background: url("../images/gift.png");
+                position: absolute;
+                right: 95%;
+                top: 0;
+                @media @xs{
+                    right: inherit;
+                    left: 50%;
+                    top: 120%;
+                    transform: translate(-50%, 0);
+                }
+            }
+        }
+        b, span{
+            display: block;
+        }
+        b{
+            font-weight: 400;
+            font-size: 29px;
+            @media @xs{
+                font-size: 26px;
+            }
+            @media @xxs{
+                font-size: 24px;
+            }
+        }
+        span{
+            font-size: 46px;
+            margin-bottom: 15px;
+            @media @xs{
+                font-size: 36px;
+            }
+            @media @xxs{
+                font-size: 32px;
+            }
+        }
+        small{
+            font-size: 18px;
+            display: block;
+            margin-bottom: 25px;
+            @media @xs{
+                font-size: 16px;
+            }
+        }
+    }
+}
+// end Offer Section

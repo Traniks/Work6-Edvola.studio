@@ -1,0 +1,46 @@
+// Modals
+.remodal{
+    max-width: 550px;
+    padding: 55px;
+    @media @xs{
+        padding: 25px;
+    }
+    .remodal-close{
+        left: inherit;
+        right: 0;
+    }
+    .modal__header{
+        margin-bottom: 35px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        h4{
+            font-size: 36px;
+            margin-bottom: 10px;
+            @media @xs{
+                font-size: 26px;
+            }
+        }
+        p{
+            @media @xs{
+                font-size: 14px;
+                br{
+                    display: none;
+                }
+            }
+        }
+    }
+    .modal__content{
+        .order__form{
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, button{
+            font-size: 24px;
+            @media @xs{
+                font-size: 18px;
+            }
+        }
+    }
+}
+// end Modals

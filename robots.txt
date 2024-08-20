@@ -1,0 +1,9 @@
+# robots.txt for https://edvola.studio
+User-agent: *
+Disallow: /.well-known/
+Disallow: /mail.php/
+Disallow: /assets/css/
+Disallow: /assets/fonts/
+Disallow: /assets/js/
+Disallow: /assets/less/
+Sitemap: https://edvola.studio/sitemap.xml

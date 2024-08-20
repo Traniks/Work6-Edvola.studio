@@ -1,0 +1,67 @@
+// Home Section
+.home__section{
+    background: url("../images/home-bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    @media @md{
+        background-position: right top;
+    }
+    .content__home{
+        padding: 45px 0 270px 0;
+        @media @tb{
+            padding: 35px 0 270px 0;
+        }
+    }
+    h1{
+        margin-bottom: 60px;
+        @media @md{
+            margin-bottom: 30px;
+        }
+        @media @tb{
+            margin-bottom: 20px;
+        }
+    }
+    .content__items{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        @media @md{
+            flex-direction: column;
+        }
+        .item__list{
+            max-width: 610px;
+            width: 100%;
+            @media @md{
+                max-width: 100%;
+                margin-bottom: 30px;
+            }
+            @media @tb{
+                margin-bottom: 35px;
+            }
+            ul{
+                li{
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                    @media @tb{
+                        font-size: 22px;
+                    }
+                    @media @xxs{
+                        font-size: 18px;
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .item__form{
+            max-width: 480px;
+            width: 100%;
+            @media @md{
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+// end Home Section

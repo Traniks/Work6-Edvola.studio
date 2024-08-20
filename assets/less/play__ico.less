@@ -1,0 +1,83 @@
+
+// Play Ico
+.play__ico{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    &.small_{
+        &:hover{
+            &:before{
+                width: 80px;
+                height: 80px;
+            }
+            &:after{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        span{
+            width: 53px;
+            height: 53px;
+            background-size: 30%;
+            margin: 0!important;
+        }
+        &:before{
+            width: 90px;
+            height: 90px;
+        }
+        &:after{
+            width: 135px;
+            height: 135px;
+        }
+    }
+    span{
+        display: block;
+        width: 124px;
+        height: 124px;
+        border-radius: 50%;
+        background: url("../images/play-button.png") @Orange;
+        background-position: 55% 50%;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 2;
+    }
+    &:hover{
+        &:before{
+            transition: all ease 0.3s;
+            width: 180px;
+            height: 180px;
+        }
+        &:after{
+            transition: all ease 0.3s;
+            width: 200px;
+            height: 200px;
+        }
+    }
+    &:before, &:after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: #ffe600;
+        opacity: 0.25;
+        transition: all ease 0.3s;
+    }
+    &:before{
+        width: 224px;
+        height: 224px;
+        
+    }
+    &:after{
+        width: 324px;
+        height: 324px;
+        @media @xs{
+            width: 290px;
+            height: 290px;
+        }
+        opacity: 0.1;
+    }
+}
+// end Play Ico

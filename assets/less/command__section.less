@@ -1,0 +1,55 @@
+// Command Section
+.command__section{
+    padding: 220px 0 155px 0;
+    @media @lg{
+        padding: 75px 0 100px 0;
+    }
+    @media @xs{
+        padding: 100px 0 85px 0;
+    }
+    .command__items{
+        .item{
+            max-width: 33.3333%;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 0 15px;
+            @media screen and (max-width: 800px) {
+                max-width: 100%;
+                width: 100%;
+                margin-bottom: 35px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            .item__ico{
+                width: 140px;
+                height: 140px;
+                background-color: #f8fbfc;
+                border-radius: 50%;
+                margin: 0 auto 25px auto;
+            }
+            .item__content{
+                b, small{
+                    display: block;
+                }
+                b{
+                    letter-spacing: -0.72px;
+                    font-size: 29px;
+                    margin-bottom: 5px;
+                    @media @md{
+                        font-size: 22px;
+                    }
+                }
+                small{
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+                ul.socials{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+// end Command Section
