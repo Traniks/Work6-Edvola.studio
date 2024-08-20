@@ -898,7 +898,7 @@ form.order__form button {
   height: 124px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: url("../images/play-button.png") #fbd633;
+  background: url("../images/play-button.webp") #fbd633;
   background-position: 55% 50%;
   background-repeat: no-repeat;
   position: relative;
@@ -987,7 +987,7 @@ form.order__form button {
   height: 124px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: url("../images/play-button.png") #fbd633;
+  background: url("../images/play-button.webp") #fbd633;
   background-position: 55% 50%;
   background-repeat: no-repeat;
   position: relative;
@@ -1167,7 +1167,7 @@ ul.socials li a.envelope:hover {
   background-size: 65px;
 }
 .home__section {
-  background: url("../images/home-bg.png");
+  background: url("../images/home-bg.webp");
   background-repeat: no-repeat;
   background-position: center top;
   -webkit-background-size: cover;
@@ -1407,7 +1407,7 @@ ul.socials li a.envelope:hover {
 .steps__section .steps__items .item:nth-child(1) .item__ico:after {
   width: 391px;
   height: 306px;
-  background: url("../images/about-step-after-1.png");
+  background: url("../images/about-step-after-1.webp");
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -1429,7 +1429,7 @@ ul.socials li a.envelope:hover {
 .steps__section .steps__items .item:nth-child(2) .item__ico:after {
   width: 391px;
   height: 306px;
-  background: url("../images/about-step-after-2.png");
+  background: url("../images/about-step-after-2.webp");
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -1443,7 +1443,7 @@ ul.socials li a.envelope:hover {
 .steps__section .steps__items .item:nth-child(3) .item__ico:after {
   width: 391px;
   height: 306px;
-  background: url("../images/about-step-after-3.png");
+  background: url("../images/about-step-after-3.webp");
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -1729,7 +1729,7 @@ ul.socials li a.envelope:hover {
 
 .portfoli-items__item {
   grid-area: right;
-  background: url(../images/pc.png) center/contain no-repeat !important;
+  background: url(../images/pc.webp) center/contain no-repeat !important;
   /* height: 770px;
   width: 1000px; */
   background-size: 2%;
@@ -2241,7 +2241,7 @@ ul.socials li a.envelope:hover {
   position: relative;
 }
 .video__section.video__one {
-  background: url("../images/video-one-bg.png");
+  background: url("../images/video-one-bg.webp");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 2;
@@ -2259,7 +2259,7 @@ ul.socials li a.envelope:hover {
 .video__section.video__two {
   position: relative;
   z-index: 2;
-  background: url("../images/video-two-bg.png");
+  background: url("../images/video-two-bg.webp");
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 70px;
@@ -2267,12 +2267,12 @@ ul.socials li a.envelope:hover {
 .video__section.video__tree {
   position: relative;
   z-index: 2;
-  background: url("../images/video-tree-bg.png");
+  background: url("../images/video-tree-bg.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
 .video__section.video__four {
-  background: url("../images/video-four-bg.png");
+  background: url("../images/video-four-bg.webp");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 2;
